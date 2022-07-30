@@ -1,8 +1,7 @@
-import { createApp } from "vue";
-import FoodCard from "./food-card.vue"
+import { createApp } from 'vue/dist/vue.esm-bundler';
 
-const app = createApp({});
+import App from "./app.vue";
 
-app.component("FoodCard", FoodCard);
+const app = createApp(App);
 
 app.mount("#vue");

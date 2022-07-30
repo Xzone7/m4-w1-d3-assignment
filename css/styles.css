@@ -24,3 +24,30 @@ FontAwesome
   padding: 70px 0;
   color: white;
   background: linear-gradient(99deg, #2d485a 0%, #19262f 99%); }
+
+.main-wrapper #vue #app {
+  text-align: center;
+  padding: 0 300px; }
+  .main-wrapper #vue #app .food-list-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px; }
+  .main-wrapper #vue #app .food {
+    width: calc(100% / 4); }
+    .main-wrapper #vue #app .food > div:not(:last-child) {
+      margin-bottom: 5px; }
+    .main-wrapper #vue #app .food-img img {
+      width: 250px;
+      height: 200px; }
+    .main-wrapper #vue #app .food-name {
+      font-weight: 600; }
+    .main-wrapper #vue #app .food-desc {
+      font-size: 14px;
+      font-style: italic; }
+    .main-wrapper #vue #app .food-button {
+      margin-bottom: 30px; }
+      .main-wrapper #vue #app .food-button button {
+        background-color: white;
+        border: 1px solid black;
+        padding: 7px 10px;
+        cursor: pointer; }
