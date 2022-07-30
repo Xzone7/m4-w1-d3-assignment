@@ -18,3 +18,9 @@ FontAwesome
   padding: 0;
   box-sizing: border-box;
   font-family: "Bitter"; }
+
+.main-wrapper .header {
+  text-align: center;
+  padding: 70px 0;
+  color: white;
+  background: linear-gradient(99deg, #2d485a 0%, #19262f 99%); }

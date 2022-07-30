@@ -15,6 +15,8 @@ Bitter
 FontAwesome
 
 ----------*/
+$max-width: 80em;
+$color-white: rgb(255, 255, 255);
 
 * {
   margin: 0;
@@ -23,4 +25,11 @@ FontAwesome
   font-family: "Bitter";
 }
 
-$max-width: 80em;
+.main-wrapper {
+  .header {
+    text-align: center;
+    padding: 70px 0;
+    color: $color-white;
+    background: linear-gradient(99deg, rgba(45,72,90,1) 0%, rgba(25,38,47,1) 99%);
+  }
+}
